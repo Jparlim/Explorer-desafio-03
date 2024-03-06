@@ -79,13 +79,12 @@ legend {
 /*listas*/
 
 .corpo {
-    border: 1px solid red;
     
     display: flex;
     gap: 22px;
 }
 
-label {
+.corpo label {
     font-family: 'poppins';
     color: #4E4958;
     font-size: 14px;
