@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #535971;
+
+    height: 380px;
+    width: 100%;
+}
+
+.footer-top h1 {
+    font-family: "staatliches", sans-serif;
+    color: white;
+    padding-left: 345px;
+    padding-top: 140px;
+}
+
+.footer-top p {
+    font-family: "poppins", sans-serif;
+    color: white;
+
+    padding-left: 345px;
+
+    width: 417px;
+    height: 46px;
+    margin-top: 18px;
+    margin-bottom: 58px;
+}
+
+/*cabeçario*/
+
+form {
+    display: flex;
+    background-color: #fff;
+
+    width: 750px;
+    height: 800px;
+    margin: -68px 345px 0 345px;
+
+    border-radius: 20px 20px 0 0;
+
+    position: absolute;
+    z-index: +1;
+}
+
+body {
+    background-color: #efefef;
+}
+
+/*logins*/
+
+form {
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+
+    margin: 64px 0 0 64px;
+}
+
+legend {
+    color: #535971;
+    font-family: 'staatliches', sans-serif;
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+
+.separador {
+    border: 1px solid #e6e6f0;
+
+    width: 622px;
+
+    margin: 16px 64px 36px 0;
+}
+
+/*listas*/
+
+.corpo {
+    border: 1px solid red;
+    
+    display: flex;
+    gap: 22px;
+}
+
+label {
+    font-family: 'poppins';
+    color: #4E4958;
+    font-size: 14px;
+    text-decoration-line: underline;
+
+    margin-left: 0;
+}
+
+.name,.surname {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset input {
+    width: 300px;
+    height: 56px;
+
+    border-radius: 8px;
+
+    border: 1px solid  #c0c0c8;
+    background-color:  #FAFAFC;
+}
+
+/*listas 2*/
+
+.login, .senha {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: 'poppins';
+    color: #4E4958;
+    font-size: 14px;
+    text-decoration-line: underline;
+
+    margin: 16px auto 8px 64px;
+}
+
+span {
+    width: 148px;
+    height: 20px;
+    margin-left: 9px;
+
+    color: #C1BCCC;
+    text-decoration-line: underline;
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+input {
+    width: 622px;
+    height: 56px;
+    border-radius: 8px;
+
+    margin: 8px auto;
+    
+    border: 1px solid  #c3c3cc;
+    background-color:  #FAFAFC;
+}
+
+/*lista3*/
+
+.mentor {
+    display: flex;
+    flex-direction: column;
+}
+
+.mentor legend {
+    margin: 30px 0 8px 64px;
+    text-decoration-line: none;
+}
+
+.mentor .separador {
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+
+
+
+
