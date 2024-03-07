@@ -23,7 +23,7 @@
     </div>
 
     <form>
-        <fieldset>
+        <fieldset class="acabo">
             <legend>
                 informaçôes pessoais
             </legend>
@@ -33,12 +33,12 @@
             <div class="corpo">
 
                 <div class="name">
-                    <label for="nome">nome</label>
+                    <label class="label-class" for="nome">nome</label>
                     <input type="text" name="name" id="name">
                 </div>
 
                 <div class="surname">
-                    <label for="surname">sobrenome</label>
+                    <label class="label-class" for="surname">sobrenome</label>
                     <input type="text" name="surname" id="surname">
                 </div>
             
@@ -47,12 +47,12 @@
         
         <div id="for">
             <div class="login">
-                <label for="email">email <span>(digite um email válido)</span></label>
+                <label class="label-class" for="email">email <span>(digite um email válido)</span></label>
                 <input type="email" name="senh" id="email">
             </div>
 
             <div class="senha">
-                <label for="senha">senha <span>(mínimo de 6 caracteres)</span></label>
+                <label class="label-class" for="senha">senha <span>(mínimo de 6 caracteres)</span></label>
                 <input type="password" name="senha" id="password">
             </div>
         </div>
@@ -62,7 +62,7 @@
 
             <div class="separador"></div>
 
-            <label for="nome">nome do seu mentor <span>(só o primeiro nome)</span></label>
+            <label class="label-class" for="nome">nome do seu mentor <span>(só o primeiro nome)</span></label>
             <input type="text" name="namementor" id="namementor">
 
             <legend>Seus horários disponíveis</legend>
@@ -71,21 +71,53 @@
             
         </div>
     
-        <div class="date">
+        <fieldset class="acabonn">
+            <legend id="legend-timer">Primeira mentoria</legend>
+            
+            <div class="date">
 
-            <div class="data">
-                <div class="labeltwo">primeira mentoria</div>
-                <label for="horario">data <span>(DD/MM/AAAA)</span></label>
-                <input type="date" name="date" id="date">
+                <div class="data">
+                    <label for="horario">data <span>(DD/MM/AAAA)</span></label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div class="box-datetime">
+                    <div class="datetime">
+                        <label for="datetime">das</label>
+                        <input class="input-data" type="time" name="das" id="das" >
+                    </div>
+
+                    <div class="datetime">
+                        <label for="datetime">até</label>
+                        <input class="input-data" type="time" name="das" id="das" >
+                    </div>
+
             </div>
+        </fieldset>
 
-            <div class="datetime">
-                <label for="datetime">das</label>
-                <input type="datetime" name="das" id="das">
+        <fieldset class="acabonn" id="roberto">
+            <legend id="legend-timer">segunda mentoria</legend>
+            
+            <div class="date">
+
+                <div class="data">
+                    <label for="horario">data <span>(DD/MM/AAAA)</span></label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div class="box-datetime">
+                    <div class="datetime">
+                        <label for="datetime">das</label>
+                        <input class="input-data" type="time" name="das" id="das" >
+                    </div>
+
+                    <div class="datetime">
+                        <label for="datetime">até</label>
+                        <input class="input-data" type="time" name="das" id="das" >
+                    </div>
+
             </div>
-
-        </div>
-
+        </fieldset> 
     </form>
 
 </body>

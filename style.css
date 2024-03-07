@@ -36,7 +36,7 @@ form {
     background-color: #fff;
 
     width: 750px;
-    height: 1084px;
+    min-height: 1084px;
     margin: -68px 345px 0 345px;
 
     border-radius: 20px 20px 0 0;
@@ -55,7 +55,7 @@ form {
     flex-direction: column;
 }
 
-fieldset {
+.acabo {
     border: none;
 
     margin: 64px 0 0 64px;
@@ -120,7 +120,11 @@ label{
     font-size: 14px;
     text-decoration-line: underline;
 
+}
+
+.label-class{
     margin: 16px auto 8px 64px;
+
 }
 
 span {
@@ -170,47 +174,47 @@ input {
 
 /* horario disponível*/
 
+.data {
+    max-width: 300px ;
+}
+
 .date {
     display: flex;
+
 }
 
-.date label, span {
-    text-decoration-line: none;
-}
+.box-datetime {
+    display: flex;
+    gap: 10px;
 
-.labeltwo {
-    color: #535971;
-    font-family: "staatliches", sans-serif;
-    font-size: 20px;
-
-    margin: 0 auto 8px 64px;
-}
-
-.date input {
-    margin-left: 64px;
-    width: 300px;
-    height: 56px;
-}
-
-/*das*/
+    margin-left: 32px;
+} 
 
 .datetime {
     display: flex;
+    flex-direction: column;
 
 }
 
 .datetime label {
-    margin-top: 40px;
+    margin-left: 0;
 }
 
-.datetime input {
-    width: 140px;
-    height: 56px;
-
-    margin-top: 60px;
+#legend-timer {
+    margin-bottom: 30px;
+    margin-top: -240px;
 }
 
+.input-data {
+    max-width: 140px ;
+}
 
+.acabonn {
+    border: none;
+    margin-left: 64px;
+}
 
+#roberto {
+    margin-top: 16px;
 
-
+}
