@@ -36,7 +36,7 @@ form {
     background-color: #fff;
 
     width: 750px;
-    height: 800px;
+    height: 1084px;
     margin: -68px 345px 0 345px;
 
     border-radius: 20px 20px 0 0;
@@ -79,7 +79,6 @@ legend {
 /*listas*/
 
 .corpo {
-    
     display: flex;
     gap: 22px;
 }
@@ -163,6 +162,10 @@ input {
 .mentor .separador {
     margin: auto;
     margin-bottom: 32px;
+}
+
+.mentor label, .mentor span{
+    text-decoration-line: none;
 }
 
 
