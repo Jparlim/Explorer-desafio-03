@@ -55,7 +55,7 @@ form {
     flex-direction: column;
 }
 
-.acabo {
+.listone {
     border: none;
 
     margin: 64px 0 0 64px;
@@ -180,6 +180,10 @@ input {
 
 .date {
     display: flex;
+}
+
+.date label, span {
+    text-decoration-line: none;
 
 }
 
@@ -196,13 +200,17 @@ input {
 
 }
 
-.datetime label {
+.datetime label{
     margin-left: 0;
+    text-decoration-line: none;
 }
+
 
 #legend-timer {
     margin-bottom: 30px;
     margin-top: -240px;
+
+    text-decoration-line: none;
 }
 
 .input-data {
@@ -212,9 +220,43 @@ input {
 .acabonn {
     border: none;
     margin-left: 64px;
+    
 }
 
 #roberto {
     margin-top: 16px;
 
+}
+
+/*botão*/
+
+footer {
+    background-color: #535971;
+
+    margin-top: 64px;
+    border-radius: 0 0 20px 20px;
+
+    width: 750px;
+    height: 160px;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    display: flex;
+
+    width: 608px;
+    height: 55px;
+
+    margin: 52px auto;
+    background-color: #ff5374;
+
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: "staatliches", sans-serif;
 }
